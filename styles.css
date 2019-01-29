@@ -1,0 +1,100 @@
+body {
+	background-image: url(./images/mountains.jpg);
+	background-size: cover;
+	font-family: "Sans-serif";
+}
+
+h1, h3 {
+	text-align: center
+}
+
+hr {
+	text-align: center;
+	width: 30%;
+}
+
+p {
+	text-align: center;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+	width: 80%;
+	text-align: center;
+	background-color: #509f9f;
+}
+
+table.center {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+tr:nth-child(even) {
+	background-color: #f2f2f2
+}
+
+a:hover {
+	color: #b2866e;
+	transition: all ease-in-out 250ms;
+}
+
+div.top {
+	border: 5px solid black;
+	text-align: center;
+	margin-top: -10%;
+	margin-left: -8px;
+	margin-right: -8px;
+}
+
+div.bottom {
+	text-align: center;
+}
+
+div.lists {
+	margin-left: 25%;
+	margin-right: 25%;
+	padding: 16px;
+}
+
+ul.hobbies_experience {
+	display: inline-block;
+}
+
+li.list_title {
+	list-style-type: none
+}
+
+span.color_red {
+	color: red;
+	font-weight: bold;
+}
+
+#my_image {
+	background-image: url(./images/me.jpg);
+	background-repeat: no-repeat;
+	height: 500px;
+	background-position: center;
+	background-size: auto;
+	margin-top: 10%;
+}
+
+#HB {
+	letter-spacing: 2px;
+	padding-left: 40px;
+	padding-right: 40px;
+	font-size: 80px;
+	font-family: "Lucida Console";
+}
+
+#quote {
+	color: white;
+	font-family: "Vladimir Script";
+	font-size: 25px;
+}
+
+#quote_person {
+	color: white;
+	font-family: "Lucida Console";
+	font-size: 12px;
+}
