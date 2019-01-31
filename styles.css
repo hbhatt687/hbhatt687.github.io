@@ -61,6 +61,15 @@ ul.hobbies_experience {
 	display: inline-block;
 }
 
+div.employment_work {
+	text-align: center
+}
+
+div.employment_work ul {
+	text-align: left;
+	display: inline-block;
+}
+
 li.list_title {
 	list-style-type: none
 }
